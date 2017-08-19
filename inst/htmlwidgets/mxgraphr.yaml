@@ -1,0 +1,8 @@
+dependencies:
+- name: mxgraph
+  version: 3.7.4
+  src: htmlwidgets/lib/src
+  script: js/mxClient.js
+  style:
+    - css/common.css
+    - css/explorer.css
