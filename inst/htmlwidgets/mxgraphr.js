@@ -25,7 +25,7 @@ HTMLWidgets.widget({
 					  var v1 = graph.insertVertex(parent, null, 'Hello,', 20, 20, 80, 30, 'rounded;strokeColor=red;fillColor=green');
 					  var v2 = graph.insertVertex(parent, null, 'World!', 200, 150, 80, 30);
 					  var v3 = graph.insertVertex(parent, null, 'Another Added' 100, 85, 80, 30, 'rounded;strokeColor=red;fillColor=blue');
-					  var e1 = graph.insertEdge(parent, null, '', v1, v2, v3);
+					  var e1 = graph.insertEdge(parent, null, '', v1, v2);
 				  }
 				  finally
 				  {
