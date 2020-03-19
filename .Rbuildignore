@@ -1,2 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^mxgraphr\.Rcheck$
+^mxgraphr.*\.tar\.gz$
+^mxgraphr.*\.tgz$

@@ -8,6 +8,7 @@
 #
 library(devtools)
 #install_github("rstjh/mxgraphr")
+install.packages("/cloud/project/", repos = NULL, type="source")
 library(shiny)
 library(mxgraphr)
 
