@@ -13,11 +13,11 @@ HTMLWidgets.widget({
     var node = encoder.encode(graph.getModel()); 
 
     return {
-
+	graph = new mxGraph(document.getElementById(el.id));
       renderValue: function(x) {
 
         if (graph === null) {
-          graph = new mxGraph(document.getElementById(el.id));
+          
           parent = graph.getDefaultParent();
 
           // Adds cells to the model in a single step
