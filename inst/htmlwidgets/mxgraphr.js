@@ -9,6 +9,8 @@ HTMLWidgets.widget({
     // Variables to keep track of the state of the widget
     var graph = null;
     var parent = null;
+    var encoder = new mxCodec();
+    var node = encoder.encode(graph.getModel()); 
 
     return {
 
@@ -19,6 +21,7 @@ HTMLWidgets.widget({
           parent = graph.getDefaultParent();
 
           // Adds cells to the model in a single step
+				  mxUtils.popup(mxUtils.getPrettyXml(node), true);
 				  graph.getModel().beginUpdate();
 				  try
 				  {
