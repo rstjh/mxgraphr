@@ -20,7 +20,7 @@ HTMLWidgets.widget({
           parent = graph.getDefaultParent();
 
           // Adds cells to the model in a single step
-				  mxUtils.popup(mxUtils.getPrettyXml(node), true);
+				  
 				  graph.getModel().beginUpdate();
 				  try
 				  {
