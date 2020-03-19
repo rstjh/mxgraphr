@@ -9,11 +9,10 @@ HTMLWidgets.widget({
     // Variables to keep track of the state of the widget
     var graph = null;
     var parent = null;
-    var encoder = new mxCodec();
-    var node = encoder.encode(graph.getModel()); 
+
 
     return {
-	graph = new mxGraph(document.getElementById(el.id));
+
       renderValue: function(x) {
 
         if (graph === null) {
